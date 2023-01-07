@@ -68,7 +68,31 @@
 
 
 
-let lapCompleted = 0
+// let lapCompleted = 0
+
+// function myfuct () {
+
+//     lapCompleted = lapCompleted + 1
+
+// }
+
+// myfuct()
+// myfuct()
+// myfuct()
+// myfuct()
+// myfuct()
+
+// console.log(lapCompleted)
 
 
-console.log(lapCompleted)
+
+
+let count = 0
+
+function increment() {
+
+    document.getElementById("count-el").innerText = count
+    count = count + 1
+}
+
+increment()
