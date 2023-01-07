@@ -35,13 +35,34 @@
 //     console.log("the button was clicked")
 // }
 
-function countDown() {
-  console.log(5);
-  console.log(4);
-  console.log(3);
-  console.log(2);
-  console.log(1);
+// function countDown() {
+//   console.log(5);
+//   console.log(4);
+//   console.log(3);
+//   console.log(2);
+//   console.log(1);
+// }
+
+// countDown()
+// countDown()
+
+
+// function myNum () {
+//     console.log(42)
+// }
+
+// myNum()
+
+
+
+let lap1 = 34
+let lap2 = 33
+let lap3 = 36
+
+
+
+function totalLaps () {
+    console.log(lap1 + lap2 + lap3)
 }
 
-countDown()
-countDown()
+totalLaps()
