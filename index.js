@@ -46,13 +46,11 @@
 // countDown()
 // countDown()
 
-
 // function myNum () {
 //     console.log(42)
 // }
 
 // myNum()
-
 
 // let lap1 = 34
 // let lap2 = 33
@@ -63,10 +61,6 @@
 // }
 
 // totalLaps()
-
-
-
-
 
 // let lapCompleted = 0
 
@@ -84,15 +78,27 @@
 
 // console.log(lapCompleted)
 
+// let count = 0
 
+// function increment() {
 
+//     document.getElementById("count-el").innerText = count
+//     count = count + 12252045454545250
+// }
 
-let count = 0
+// increment()
+
+////////////////////////////////////////////////////////
+
+let countEl = document.getElementById("count-el");
+
+console.log(countEl);
+
+let count = 0;
 
 function increment() {
-
-    document.getElementById("count-el").innerText = count
-    count = count + 1
+  count = count + 1;
+  countEl.innerText = count;
 }
 
-increment()
+///////////////////////////////////////////////////////
