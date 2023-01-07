@@ -108,7 +108,7 @@ let counter = document.getElementById("count-el");
 let count = 0;
 
 function increment() {
-  count = count + 1;
+  count += 1;
   counter.innerText = count;
 }
 
@@ -116,4 +116,8 @@ function increment() {
 function save() {
   console.log(count);
 }
+
+
+
+
 
