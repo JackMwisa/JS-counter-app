@@ -1,7 +1,5 @@
 // document.getElementById("count-el").innerText = 78
 
-
-
 // Comment Ctrl + k + c
 
 // let count = 0
@@ -33,9 +31,17 @@
 // bonusPoints = bonusPoints + 45
 // console.log(bonusPoints)
 
+// function increment () {
+//     console.log("the button was clicked")
+// }
 
-
-
-function increment () {
-    console.log("the button was clicked")
+function countDown() {
+  console.log(5);
+  console.log(4);
+  console.log(3);
+  console.log(2);
+  console.log(1);
 }
+
+countDown()
+countDown()
