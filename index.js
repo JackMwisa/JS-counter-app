@@ -54,15 +54,21 @@
 // myNum()
 
 
+// let lap1 = 34
+// let lap2 = 33
+// let lap3 = 36
 
-let lap1 = 34
-let lap2 = 33
-let lap3 = 36
+// function totalLaps () {
+//     console.log(lap1 + lap2 + lap3)
+// }
+
+// totalLaps()
 
 
 
-function totalLaps () {
-    console.log(lap1 + lap2 + lap3)
-}
 
-totalLaps()
+
+let lapCompleted = 0
+
+
+console.log(lapCompleted)
