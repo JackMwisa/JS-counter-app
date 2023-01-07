@@ -90,15 +90,48 @@
 
 ////////////////////////////////////////////////////////
 
-let countEl = document.getElementById("count-el");
+// let countEl = document.getElementById("count-el");
 
-console.log(countEl);
+// console.log(countEl);
 
-let count = 0;
+// let count = 0;
 
-function increment() {
-  count = count + 1;
-  countEl.innerText = count;
-}
+// function increment() {
+//   count = count + 1;
+//   countEl.innerText = count;
+// }
 
 ///////////////////////////////////////////////////////
+
+
+
+let counter = document.getElementById("count-el");
+console.log(counter);
+
+let add = 0;
+console.log(add);
+
+function increment () {
+    counter.innerText = add;
+    add = add + 1;
+
+}
+
+
+increment()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
