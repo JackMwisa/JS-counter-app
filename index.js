@@ -103,35 +103,17 @@
 
 ///////////////////////////////////////////////////////
 
-
-
 let counter = document.getElementById("count-el");
-console.log(counter);
 
-let add = 0;
-console.log(add);
+let count = 0;
 
-function increment () {
-    counter.innerText = add;
-    add = add + 1;
-
+function increment() {
+  count = count + 1;
+  counter.innerText = count;
 }
 
-
-increment()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+function save() {
+  console.log(count);
+}
 
